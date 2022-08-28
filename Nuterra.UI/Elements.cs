@@ -38,6 +38,11 @@ namespace Nuterra.UI
             }
         }
 
+        public static Texture2D LoadImageFromModContainer(string name)
+        {
+            return NuterraGUI.ThisContainer.Contents.FindAsset(name) as Texture2D;
+        }
+
         public static Texture2D LoadImageFromAsset(string name)
         {
             return LoadImageFromFile(name);

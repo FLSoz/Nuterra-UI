@@ -14,22 +14,22 @@ namespace Nuterra.UI
             {
                 normal =
                 {
-                    background = Elements.LoadImageFromFile("Toggle_OFF.png"),
+                    background = Elements.LoadImageFromModContainer("Toggle_OFF.png"),
                     textColor = new Color(0.85f,0.85f,0.85f)
                 },
                 active =
                 {
-                    background = Elements.LoadImageFromFile("Toggle_ON.png"),
+                    background = Elements.LoadImageFromModContainer("Toggle_ON.png"),
                     textColor = new Color(0.8f,0.95f,0.95f)
                 },
                 onNormal =
                 {
-                    background = Elements.LoadImageFromFile("Toggle_ON.png"),
+                    background = Elements.LoadImageFromModContainer("Toggle_ON.png"),
                     textColor = new Color(0.9f,0.9f,0.9f)
                 },
                 onActive =
                 {
-                    background = Elements.LoadImageFromFile("Toggle_OFF.png"),
+                    background = Elements.LoadImageFromModContainer("Toggle_OFF.png"),
                     textColor = new Color(.85f,.85f,.95f)
                 },
                 onHover =
@@ -44,27 +44,27 @@ namespace Nuterra.UI
             {
                 normal =
                 {
-                    background = Elements.LoadImageFromFile("Check_Unticked.png")
+                    background = Elements.LoadImageFromModContainer("Check_Unticked.png")
                 },
                 active =
                 {
-					background = Elements.LoadImageFromFile("Check_Unticked.png")
+					background = Elements.LoadImageFromModContainer("Check_Unticked.png")
 				},
 				hover =
 				{
-					background = Elements.LoadImageFromFile("Check_Unticked.png")
+					background = Elements.LoadImageFromModContainer("Check_Unticked.png")
 				},
 				onNormal =
 				{
-					background = Elements.LoadImageFromFile("Check_Ticked.png")
+					background = Elements.LoadImageFromModContainer("Check_Ticked.png")
 				},
 				onActive =
 				{
-					background = Elements.LoadImageFromFile("Check_Ticked.png")
+					background = Elements.LoadImageFromModContainer("Check_Ticked.png")
 				},
 				onHover =
 				{
-					background = Elements.LoadImageFromFile("Check_Ticked.png")
+					background = Elements.LoadImageFromModContainer("Check_Ticked.png")
 				},
 				border = new RectOffset(2, 2, 2, 2),
 				fixedWidth = 32f,

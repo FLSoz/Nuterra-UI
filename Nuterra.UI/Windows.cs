@@ -12,7 +12,7 @@ namespace Nuterra.UI
             {
                 normal =
                 {
-                    background = Elements.LoadImageFromFile("Border_BG.png"),
+                    background = Elements.LoadImageFromModContainer("Border_BG.png"),
                     textColor = Color.white
                 },
                 alignment = TextAnchor.UpperCenter,

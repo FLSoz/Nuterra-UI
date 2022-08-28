@@ -18,7 +18,7 @@ namespace Nuterra.UI
             {
                 normal =
                 {
-                    background = Elements.LoadImageFromFile("Scroll_Horizontal_BG.png")
+                    background = Elements.LoadImageFromModContainer("Scroll_Horizontal_BG.png")
                 },
                 fixedHeight = 16f,
                 border = new RectOffset(8, 8, 8, 8)
@@ -27,7 +27,7 @@ namespace Nuterra.UI
             {
                 normal =
                 {
-                    background = Elements.LoadImageFromFile("Scroll_Vertical_BG.png")
+                    background = Elements.LoadImageFromModContainer("Scroll_Vertical_BG.png")
                 },
                 fixedWidth = 16f,
                 border = new RectOffset(8, 8, 8, 8)
@@ -36,7 +36,7 @@ namespace Nuterra.UI
             {
                 normal =
                 {
-                    background = Elements.LoadImageFromFile("Scroll_Horizontal_Thumb.png")
+                    background = Elements.LoadImageFromModContainer("Scroll_Horizontal_Thumb.png")
                 },
                 fixedHeight = 16f,
                 border = new RectOffset(8, 8, 8, 8)
@@ -45,7 +45,7 @@ namespace Nuterra.UI
             {
                 normal =
                 {
-                    background = Elements.LoadImageFromFile("Scroll_Vertical_Thumb.png")
+                    background = Elements.LoadImageFromModContainer("Scroll_Vertical_Thumb.png")
                 },
                 fixedWidth = 16f,
                 border = new RectOffset(8, 8, 8, 8)

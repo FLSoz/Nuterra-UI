@@ -18,15 +18,15 @@ namespace Nuterra.UI
             {
                 normal =
                 {
-                    background = Elements.LoadImageFromFile("Slider_BG.png")
+                    background = Elements.LoadImageFromModContainer("Slider_BG.png")
                 },
                 onNormal =
                 {
-                    background = Elements.LoadImageFromFile("Slider_Highlight_BG.png")
+                    background = Elements.LoadImageFromModContainer("Slider_Highlight_BG.png")
                 },
                 active =
                 {
-                    background = Elements.LoadImageFromFile("Slider_Highlight_BG.png")
+                    background = Elements.LoadImageFromModContainer("Slider_Highlight_BG.png")
                 },
                 fixedHeight = 16f,
                 border = new RectOffset(8, 8, 8, 8),
@@ -37,15 +37,15 @@ namespace Nuterra.UI
             {
                 normal =
                 {
-                    background = Elements.LoadImageFromFile("Slider_BG.png")
+                    background = Elements.LoadImageFromModContainer("Slider_BG.png")
                 },
                 onNormal =
                 {
-                    background = Elements.LoadImageFromFile("Slider_Highlight_BG.png")
+                    background = Elements.LoadImageFromModContainer("Slider_Highlight_BG.png")
                 },
                 active =
                 {
-                    background = Elements.LoadImageFromFile("Slider_Highlight_BG.png")
+                    background = Elements.LoadImageFromModContainer("Slider_Highlight_BG.png")
                 },
                 fixedWidth = 16f,
                 border = new RectOffset(8, 8, 8, 8),
@@ -57,7 +57,7 @@ namespace Nuterra.UI
             {
                 normal =
                 {
-                    background = Elements.LoadImageFromFile("Slider_Fill_BG.png")
+                    background = Elements.LoadImageFromModContainer("Slider_Fill_BG.png")
                 },
                 fixedHeight = 16f,
                 fixedWidth = 20f,
@@ -70,7 +70,7 @@ namespace Nuterra.UI
             {
                 normal =
                 {
-                    background = Elements.LoadImageFromFile("Slider_Fill_BG.png")
+                    background = Elements.LoadImageFromModContainer("Slider_Fill_BG.png")
                 },
                 fixedWidth = 16f,
                 fixedHeight = 20f,

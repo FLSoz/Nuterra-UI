@@ -1,10 +1,12 @@
 ﻿using System;
+using System.Reflection;
+using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
 namespace Nuterra.UI
 {
-    public static class NuterraGUI
+    public class NuterraGUI : ModBase
     {
 
         public static GUISkin Skin
@@ -16,12 +18,46 @@ namespace Nuterra.UI
             set { _skin = value; }
         }
 
-        public static void CreateGUIObject()
+        private static void CreateGUIObject()
         {
             new GameObject().AddComponent<GUIOverride>();
         }
 
-        static void ModifyGUI(GUISkin Default)
+        private static bool Inited = false;
+
+        internal static ModContainer ThisContainer;
+        public override void EarlyInit()
+        {
+            if (!Inited)
+            {
+                Inited = true;
+                Dictionary<string, ModContainer> mods = (Dictionary<string, ModContainer>) typeof(ManMods).GetField("m_Mods", BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic).GetValue(Singleton.Manager<ManMods>.inst);
+                if (mods.TryGetValue("Nuterra UI", out ModContainer thisContainer))
+                {
+                    ThisContainer = thisContainer;
+                }
+                else
+                {
+                    Console.WriteLine("FAILED TO FETCH NuterraUI ModContainer");
+                }
+                CreateGUIObject();
+            }
+        }
+
+        public override bool HasEarlyInit()
+        {
+            return true;
+        }
+
+        public override void Init()
+        {
+        }
+
+        public override void DeInit()
+        {
+        }
+
+        private static void ModifyGUI(GUISkin Default)
         {
             try
             {

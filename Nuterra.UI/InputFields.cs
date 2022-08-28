@@ -12,12 +12,12 @@ namespace Nuterra.UI
             {
                 normal =
                 {
-                    background = Elements.LoadImageFromFile("TextField_BG.png"),
+                    background = Elements.LoadImageFromModContainer("TextField_BG.png"),
                     textColor = Color.white
                 },
                 active =
                 {
-                    background = Elements.LoadImageFromFile("TextField_BG_Highlight.png"),
+                    background = Elements.LoadImageFromModContainer("TextField_BG_Highlight.png"),
                     textColor = Color.white
                 },
 

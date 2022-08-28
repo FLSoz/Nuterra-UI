@@ -20,32 +20,32 @@ namespace Nuterra.UI
             {
                 normal =
                 {
-                    background = Elements.LoadImageFromFile("HUD_Button_BG.png"),
+                    background = Elements.LoadImageFromModContainer("HUD_Button_BG.png"),
                     textColor = Color.white
                 },
                 hover =
                 {
-                    background = Elements.LoadImageFromFile("HUD_Button_Highlight.png"),
+                    background = Elements.LoadImageFromModContainer("HUD_Button_Highlight.png"),
                     textColor = Color.white
                 },
                 active =
                 {
-                    background = Elements.LoadImageFromFile("HUD_Button_Selected.png"),
+                    background = Elements.LoadImageFromModContainer("HUD_Button_Selected.png"),
                     textColor = Color.white
                 },
                 onNormal =
                 {
-                    background = Elements.LoadImageFromFile("HUD_Button_Selected.png"),
+                    background = Elements.LoadImageFromModContainer("HUD_Button_Selected.png"),
                     textColor = Color.white
                 },
                 onHover =
                 {
-                    background = Elements.LoadImageFromFile("HUD_Button_Highlight.png"),
+                    background = Elements.LoadImageFromModContainer("HUD_Button_Highlight.png"),
                     textColor = Color.white
                 },
                 onActive =
                 {
-                    background = Elements.LoadImageFromFile("HUD_Button_BG.png"),
+                    background = Elements.LoadImageFromModContainer("HUD_Button_BG.png"),
                     textColor = Color.white
                 },
                 border = new RectOffset(10, 10, 10, 10),
@@ -59,27 +59,27 @@ namespace Nuterra.UI
             {
                 normal =
                 {
-                    background = Elements.LoadImageFromFile("HUD_Button_GREY_BG.png"),
+                    background = Elements.LoadImageFromModContainer("HUD_Button_GREY_BG.png"),
                     textColor = Color.white
                 },
                 hover =
                 {
-                    background = Elements.LoadImageFromFile("HUD_Button_RED_BG.png"),
+                    background = Elements.LoadImageFromModContainer("HUD_Button_RED_BG.png"),
                     textColor = Color.white
                 },
                 active =
                 {
-                    background = Elements.LoadImageFromFile("HUD_Button_RED_BG.png"),
+                    background = Elements.LoadImageFromModContainer("HUD_Button_RED_BG.png"),
                     textColor = Color.white
                 },
                 onNormal =
                 {
-                    background = Elements.LoadImageFromFile("HUD_Button_RED_BG.png"),
+                    background = Elements.LoadImageFromModContainer("HUD_Button_RED_BG.png"),
                     textColor = Color.white
                 },
                 onHover =
                 {
-                    background = Elements.LoadImageFromFile("HUD_Button_RED_BG.png"),
+                    background = Elements.LoadImageFromModContainer("HUD_Button_RED_BG.png"),
                     textColor = Color.white
                 }
             };
@@ -88,15 +88,15 @@ namespace Nuterra.UI
             {
                 normal =
                 {
-                    background = Elements.LoadImageFromFile("Button_Close.png")
+                    background = Elements.LoadImageFromModContainer("Button_Close.png")
                 },
                 active =
                 {
-                    background = Elements.LoadImageFromFile("Button_Close.png")
+                    background = Elements.LoadImageFromModContainer("Button_Close.png")
                 },
                 onNormal =
                 {
-                    background = Elements.LoadImageFromFile("Button_Close.png")
+                    background = Elements.LoadImageFromModContainer("Button_Close.png")
                 },
                 alignment = TextAnchor.UpperRight,
                 margin = new RectOffset { right = 0, top=0 }
@@ -106,27 +106,27 @@ namespace Nuterra.UI
             {
                 normal =
                 {
-                    background = Elements.LoadImageFromFile("Button_BG.png")
+                    background = Elements.LoadImageFromModContainer("Button_BG.png")
                 },
                 hover =
                 {
-					background = Elements.LoadImageFromFile("Button_Highlight_BG.png")
+					background = Elements.LoadImageFromModContainer("Button_Highlight_BG.png")
                 },
                 active =
                 {
-					background = Elements.LoadImageFromFile("Button_BG.png")
+					background = Elements.LoadImageFromModContainer("Button_BG.png")
 				},
                 onNormal =
                 {
-                    background = Elements.LoadImageFromFile("Button_Highlight_BG.png")
+                    background = Elements.LoadImageFromModContainer("Button_Highlight_BG.png")
                 },
                 onHover =
                 {
-                    background = Elements.LoadImageFromFile("Button_BG.png")
+                    background = Elements.LoadImageFromModContainer("Button_BG.png")
                 },
                 onActive =
                 {
-					background = Elements.LoadImageFromFile("Button_Highlight_BG.png")
+					background = Elements.LoadImageFromModContainer("Button_Highlight_BG.png")
 				}
             };
 
@@ -134,11 +134,11 @@ namespace Nuterra.UI
             {
                 normal =
                 {
-                    background = Elements.LoadImageFromFile("Button_GREY_BG.png")
+                    background = Elements.LoadImageFromModContainer("Button_GREY_BG.png")
                 },
                 hover =
                 {
-                    background = Elements.LoadImageFromFile("Button_GREY_BG.png")
+                    background = Elements.LoadImageFromModContainer("Button_GREY_BG.png")
                 },
             };
         }
